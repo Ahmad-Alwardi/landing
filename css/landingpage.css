@@ -1,0 +1,133 @@
+body {
+    overflow: hidden;
+    background: linear-gradient(rgb(255, 0, 179), #5b177a, black);
+    font-family: sahel;
+}
+
+.under-main {
+    background-color: rgba(0, 0, 0, 0.342);
+    margin: 1.5% auto;
+    width: 95%;
+    height: 95%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+}
+
+.main {
+    border-radius: 10px;
+    margin: 1.5% auto;
+    width: 97%;
+    height: 94%;
+    /* background: radial-gradient( black, #0a081d); */
+    background: linear-gradient(to right, #15113b, black, black, black, black);
+    position: relative;
+}
+
+img {
+    position: absolute;
+    border-radius: 00px 10px 10px 0px;
+    right: 0px;
+    top: 0px;
+    width: 69%;
+}
+
+header {
+    height: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.main header ul {
+    position: absolute;
+    top: -70px;
+    left: 29.7%;
+    padding: 0;
+}
+
+.main header ul li {
+    margin: 16px;
+    display: inline-block;
+}
+
+.main header ul li a {
+    font-family: sahel;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+section {
+    position: relative;
+}
+
+h1,
+p {
+    position: absolute;
+    color: white;
+}
+
+.first {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 50px;
+    left: 50px;
+    top: 0px;
+}
+
+.second {
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 50px;
+    left: 50px;
+    top: 50px;
+}
+
+p {
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 18px;
+    left: 55px;
+    top: 150px;
+    width: 450px;
+}
+
+button {
+    font-size: 15px;
+    border: none;
+    font-family: sahel;
+    cursor: pointer;
+    border-radius: 18px;
+    height: 34px;
+    width: 110px;
+    position: absolute;
+    left: 55px;
+    top: 300px;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(255, 0, 179);
+}
+
+.icono-hamburger {
+    position: absolute;
+    left: 94%;
+    top: -45px;
+}
+
+svg {
+    transform: rotate(10deg);
+    fill: #ffd900;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+ul li {
+    transition: 0.3s;
+    line-height: none;
+}
+
+ul li:hover {
+    transform: scale(1.2);
+    color: white;
+}
